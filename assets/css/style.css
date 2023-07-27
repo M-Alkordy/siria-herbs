@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* start landing-page */
+
+/* end landing-page */
+
+/* ________________________ */
+
+/* start products page */
+
+/* end products page */
+
+/* ________________________ */
+
+/* start aboutUs page */
+
+/* end aboutUs page */
+
+/* ________________________ */
+
+/* start contactUs page */
+
+/* end contactUs page */
+
+
+@media screen  and (max-width:750px){
+    /* start landing-page */
+
+/* end landing-page */
+
+/* ________________________ */
+
+/* start products page */
+
+/* end products page */
+
+/* ________________________ */
+
+/* start aboutUs page */
+
+/* end aboutUs page */
+
+/* ________________________ */
+
+/* start contactUs page */
+
+/* end contactUs page */
+}
