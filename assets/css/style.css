@@ -5,9 +5,7 @@
     box-sizing: border-box;
     font-family: 'Scope One';
 }
-html{
-    font-size: 62.5%;
-}
+
 
 /* start landing-page */
 
@@ -166,7 +164,246 @@ height: 58.79px;
 /* ________________________ */
 
 /* start aboutUs page */
+/* start hero  */
+.ho-hero-about{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/Hero-About.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ho-hero-about::before{
+    content: '';
+    position: absolute;
+    background-color:rgba(89, 89, 89, 0.50); 
+    top: 0;
+    left: 0;width: 100%;
+    height: 100%;
+}
+.ho-hero-about .ho-hero-contant{
+    top: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    left: 50%;
+}
+.ho-hero-about .ho-hero-contant h2{
+    color: #FFF;
+    font-family: Scope One;
+    font-size: 4.375rem;
+    font-weight: 400;
+}
+.ho-hero-about .ho-hero-contant .ho-menu-page ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ho-hero-about .ho-hero-contant .ho-menu-page ul li{
+margin: 0 5px;
+color: #FFF;
+font-size: 1rem;
+}
+.ho-hero-contant .ho-menu-page ul li a{
+ color: #FFF;
+font-family: Rubik;
+font-size: 1rem;
+font-weight: 500;
+text-decoration: none;
+}
+.ho-hero-contant .ho-menu-page ul li a:hover{
+    color: #9BC156;
+}
+.ho-hero-contant .ho-menu-page ul li:last-child a
+{
+    color: #9BC156; 
+}
+/* end hero  */
+/* start about section 1 */
+.ho-about-section{
+    width: 86%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.ho-about-section .ho-about-section-img{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.ho-about-section .ho-about-section-info{
+    width: 45%;
+}
+.ho-about-section .ho-about-section-info h3{
+color: #383A39;
+font-family: Scope One;
+font-size: 3rem;
+font-weight: 400;
+margin-bottom: 50px;
+padding-top: 10px;
+position: relative;
+width:40%;
+}
+.ho-about-section .ho-about-section-info h3::before{
+    content: url(../img/div.block-title__decor.svg);
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+.ho-about-section .ho-about-section-info p,
+.ho-about-section .ho-about-section-info p span{
+color: #717573;
+font-family: Rubik;
+font-size: 1.125rem;
+line-height: 2.2;
 
+}
+.ho-about-section .ho-about-section-info p{
+    width: 85%;
+}
+.ho-about-section .ho-about-section-info p span{
+    width: 100%;
+}
+
+/* end about section 1 */
+/* start about section 2 */
+.ho-about-sce-section{
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/about-section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.ho-about-sce-section::before{
+    content: '';
+    position: absolute;
+    background-color:rgba(89, 89, 89, 0.80); 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ho-about-sce-section h3{
+top: 50%;
+position: absolute;
+transform: translate(-50% ,-50%);
+left: 50%;
+color: #FFF;
+text-align: center;
+font-family: Abril Fatface;
+font-size: 3.75rem;
+font-weight: 400; 
+}
+.ho-about-sce-section h3::before{
+    content: url(../img/pseudo1.svg);
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+
+/* end about section 2 */
+/* start about factory  */
+.ho-about-factory{
+    width: 86%;
+    margin: 70px auto;
+}
+.ho-about-factory h3{
+    width: max-content;
+color: #383A39;
+margin: 0 auto;
+font-family: Scope One;
+font-size: 3.125rem;
+font-weight: 400;
+position: relative;
+}
+.ho-about-factory h3::before{
+    content: url(../img/div.block-title__decor.svg);
+    position: absolute;
+    top:-35px;
+    left: 0;
+}
+.ho-about-factory .ho-factory-photo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+.ho-about-factory .ho-factory-photo img{
+    width:20%;
+}
+/* end about factory  */
+/* start about section Amis  */
+.ho-about-our-amis{
+    background-image: url(../img/about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 508px;
+    position: relative;
+    margin-bottom: 175px;
+}
+.ho-about-our-amis .ho-about-our-amis-info{
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+.ho-about-our-amis .ho-about-our-amis-info img{
+    padding: 15px;
+}
+.ho-about-our-amis .ho-about-our-amis-info h6{
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.ho-about-our-amis .ho-about-our-amis-info h3{
+    color: #383A39;
+    text-align: center;
+    font-family: Scope One;
+    font-size:3.125rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px;
+}
+.ho-about-our-amis .ho-about-our-amis-info p{
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.ho-about-our-amis .ho-about-amis-cards{
+    position: absolute;
+    display: flex;
+    width: 86%;
+    justify-content: space-between;
+    top: 78%;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ho-about-our-amis .ho-about-amis-cards .ho-amis-card{
+    background: #FFF;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.10);
+    padding: 44px 19px 35px 21px;
+}
+
+.ho-about-our-amis .ho-about-amis-cards .ho-amis-card h4{
+color: #383A39;
+font-family: Rubik;
+font-size: 1rem;
+font-weight: 500;
+padding-top: 30px;
+}
+/* end about section Amis  */
 /* end aboutUs page */
 
 /* ________________________ */
@@ -190,6 +427,153 @@ height: 58.79px;
 /* ________________________ */
 
 /* start aboutUs page */
+/* star hero  */
+.ho-hero-about{
+    background-image: url(../img/Group\ 47.png);
+    height: 425px;
+}
+.ho-hero-about .ho-hero-contant{
+    top:80%;
+}
+.ho-hero-about .ho-hero-contant h2{
+color: #FFF;
+font-family: Scope One;
+font-size: 2rem;
+font-weight: 400;
+}
+.ho-hero-about .ho-hero-contant .ho-menu-page ul{
+    margin-top: 0;
+}
+.ho-hero-contant .ho-menu-page ul li a{
+font-family: Rubik;
+font-size:0.6875rem;
+font-weight: 500;
+}
+.ho-hero-about .ho-hero-contant .ho-menu-page ul li{
+font-size: 0.6875rem;
+}
+/* end hero  */
+
+/* start about section 1 */
+.ho-about-section{
+    flex-direction: row-reverse;
+}
+.ho-about-section .ho-about-section-info h3{
+color: #383A39;
+font-family: Scope One;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+width: 100%;
+margin-top: -50px;
+}
+.ho-about-section .ho-about-section-info h3::before{
+    content: url(../img/div.block-title__decormobail.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ho-about-section .ho-about-section-info p{
+    color: #000;
+text-align: justify;
+font-family: Rubik;
+font-size: 0.5rem;
+font-style: normal;
+font-weight: 300;
+margin-top: -25px;
+}
+.ho-about-section .ho-about-section-info p span{
+    display: none;
+}
+.ho-about-section .ho-about-section-info{
+    width:60%;
+}
+.ho-about-section .ho-about-section-img{
+    justify-content: space-between;
+    width: 40%;
+}
+.ho-about-section .ho-about-section-img img{
+    width:48%;
+}
+/* end about section 1 */
+
+/* start about section 2 */
+.ho-about-sce-section h3{
+color: #FFF6F6;
+font-family: Abril Fatface;
+font-size: 0.75rem;
+font-weight: 400;
+}
+.ho-about-sce-section h3::before{
+    content: url(../img/pseudomobail.svg);
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+/* end about section 2 */
+
+/* start about factory  */
+.ho-about-factory h3{
+color: #000;
+font-family: Scope One;
+font-size: 0.875rem;
+font-weight: 400;
+} 
+.ho-about-factory h3::before {
+    content: url(../img/div.block-title__decormobail.svg);
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.ho-about-factory .ho-factory-photo img{
+    width:45%;
+}
+
+/* end about factory  */ 
+/* start about section Amis  */
+.ho-about-our-amis{
+    background-image: url(../img/amismobile.png);
+    height: 250px;
+}
+.ho-about-our-amis .ho-about-amis-cards{
+    flex-wrap: wrap;
+}
+.ho-about-our-amis .ho-about-our-amis-info h6{
+    font-size: 0.625rem;
+    font-weight: 300;
+    }
+    .ho-about-our-amis .ho-about-our-amis-info img{
+        padding-bottom: 0;
+        width: 40px;
+        margin-bottom: -5px;
+    }
+    .ho-about-our-amis .ho-about-our-amis-info h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding-top: 5px;
+    }
+    .ho-about-our-amis .ho-about-our-amis-info p{
+        font-size: 0.625rem;
+        font-weight: 300;
+        width: 90%;
+        padding: 5px 10px;
+        line-height: 2;
+    
+    }
+    
+    .ho-about-our-amis .ho-about-amis-cards{
+        top: 90%;
+    }
+    .ho-about-our-amis .ho-about-amis-cards .ho-amis-card h4{
+    color: #383A39;
+    font-size: 0.75rem;
+    font-weight: 500;
+    }
+.ho-about-our-amis .ho-about-amis-cards .ho-amis-card{
+    width: 40%;
+    padding: 25px 0;
+}
+/* end about section Amis  */
 
 /* end aboutUs page */
 
