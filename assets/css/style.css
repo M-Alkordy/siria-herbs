@@ -409,7 +409,177 @@ padding-top: 30px;
 /* ________________________ */
 
 /* start contactUs page */
+/* start question section  */
+.ho-section-question{
+    width: 100%;
+    margin: 70px auto;
+    text-align: center;
+}
+.ho-section-question h5{
+color: #717573;
+font-family: Rubik;
+font-size: 1.125rem;
+font-weight: 300;
+margin: 10px auto;
+}
+.ho-section-question h2{
+color: #383A39;
+font-family: Scope One;
+font-size: 3.125rem;
+font-weight: 400;
+text-transform: uppercase;
+}
+.ho-section-question p{
+color: #000;
+font-family: Rubik;
+font-size: 1.375rem;
+font-weight: 300;
+line-height: 3;
+text-transform: uppercase;
+width:50%;
+margin: 50px auto 0;
+}
 
+/* end question section  */
+/* start contact section   */
+.ho-contact-section{
+    width: 100%;
+    text-align: center;
+}
+.ho-contact-section .ho-text-contact{
+    margin-bottom: 20px;
+}
+.ho-contact-section .ho-text-contact h5{
+color: #717573;
+font-family: Rubik;
+font-size: 1.125rem;
+font-weight: 300;
+}
+.ho-contact-section .ho-text-contact h2{
+color: #383A39;
+font-family: Scope One;
+font-size: 3.125rem;
+font-weight: 400;
+text-transform: uppercase;
+}
+.ho-contact-section form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.ho-contact-section form .ho-contact-form{
+    padding: 10px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ho-contact-section form .ho-contact-form input{
+    width:49%;
+    padding: 21px 24px;
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-weight: 400;
+    background: #F4F4F4;
+    border: none;
+}
+.ho-contact-section form .ho-contact-form input:focus{
+    outline: none;
+}
+.ho-contact-section form textarea{
+    padding: 21px 24px;
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-weight: 400;
+    background: #F4F4F4;
+    border: none;
+    height: 250px;
+    resize: none;
+}
+.ho-contact-section form textarea:focus{
+    outline: none;
+}
+.ho-contact-section form button{
+    width: 35%;
+    padding: 20px 0;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #9BC156;
+    margin: 50px auto;
+    border: none;
+    cursor: pointer;
+}
+
+/* end contact section   */
+/* start contact info section   */
+.ho-info-contact-section{
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.ho-info-contact-section .ho-info-contact-card{
+    border: 2px solid #F4F4F4;
+    background: #FFF;
+    width: 370px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.ho-info-contact-section .ho-info-contact-card h3{
+    color: #383A39;
+    font-family: Abril Fatface;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.ho-info-contact-section .ho-info-contact-card p{
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+    width: 50%;
+}
+.ho-info-contact-section .ho-info-contact-card ul{
+    list-style: none;
+}
+.ho-info-contact-section .ho-info-contact-card:last-child ul{
+    display: flex;
+}
+.ho-info-contact-section .ho-info-contact-card ul li{
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.ho-info-contact-section .ho-info-contact-card:last-child ul li{
+    margin: 0 10px;
+}
+.ho-info-contact-section .ho-info-contact-card:last-child ul li a{
+    text-decoration: none;
+    color: #717573;
+    font-family: Rubik;
+    font-size: 1.125rem;
+    font-weight: 300;
+    position: relative;
+}
+.ho-info-contact-section .ho-info-contact-card:last-child ul li:last-child a::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 21px;
+    left: -10px;
+    bottom: 0;
+    background-color: #717573;
+}
+/* end contact info section   */
 /* end contactUs page */
 
 
@@ -498,6 +668,10 @@ margin-top: -25px;
 /* end about section 1 */
 
 /* start about section 2 */
+.ho-about-sce-section{
+    background-image: url(../img/about-section-mobail.png);
+    height: 75px;
+}
 .ho-about-sce-section h3{
 color: #FFF6F6;
 font-family: Abril Fatface;
@@ -563,6 +737,7 @@ font-weight: 400;
     
     .ho-about-our-amis .ho-about-amis-cards{
         top: 90%;
+        gap: 20px;
     }
     .ho-about-our-amis .ho-about-amis-cards .ho-amis-card h4{
     color: #383A39;
@@ -580,6 +755,69 @@ font-weight: 400;
 /* ________________________ */
 
 /* start contactUs page */
+/* start question section  */
+.ho-section-question img{
+    width:10px;
+}
+.ho-section-question h5{
+font-size: 0.625rem;
+font-weight: 300;
+margin: 0 auto 10px;
+}
+.ho-section-question h2{
+font-size: 1.125rem;
+font-weight: 400;
+}
+.ho-section-question p{
+font-size: 0.4375rem;
+font-weight: 300;
+width: 90%;
+}
+
+/* end question section  */
+/* start contact section   */
+.ho-contact-section .ho-text-contact img{
+    width:10px;
+}
+.ho-contact-section .ho-text-contact h5{
+font-size: 0.625rem;
+font-weight: 300;
+}
+.ho-contact-section .ho-text-contact h2{
+font-size: 1.125rem;
+font-weight: 400;
+padding: 10px;
+}
+.ho-contact-section form{
+    width: 90%;
+}
+.ho-contact-section form .ho-contact-form {
+    flex-direction: column;
+    gap:10px;
+}
+.ho-contact-section form .ho-contact-form input{
+    width: 100%;
+    font-size: 0.625rem;
+}
+.ho-contact-section form textarea{
+    font-size: 0.625rem;
+}
+.ho-contact-section form button{
+    width: 100%;
+    margin: 10px auto 50px;
+    font-size: 0.4375rem;
+}
+/* End contact section   */
+/* start contact info section   */
+.ho-info-contact-section{
+    flex-direction: column;
+    gap:20px;
+    width: 90%;
+}
+.ho-info-contact-section .ho-info-contact-card{
+    width:100%;
+}
+/* end contact info section   */
 
 /* end contactUs page */
 }
