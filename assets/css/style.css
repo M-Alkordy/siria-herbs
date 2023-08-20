@@ -138,6 +138,7 @@
   right: 0;
   left: 0;
   z-index: 106100000000000000 !important;
+  /* max-width: 100vw ; */
 }
 .rm_syria_nav_bootstrap_left {
   display: flex;
@@ -1695,6 +1696,13 @@ bottom: 47px;
   margin: 70px auto;
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+.ho-about-section::after{
+  content: url(../img/about-leaf-1-1.png.png);
+  position: absolute;
+  right: -106px;
+  bottom: -75px;
 }
 .ho-about-section .ho-about-section-img {
   width: 45%;
@@ -1704,6 +1712,7 @@ bottom: 47px;
 }
 .ho-about-section .ho-about-section-info {
   width: 45%;
+  z-index: 1;
 }
 .ho-about-section .ho-about-section-info h3 {
   color: #383a39;
@@ -2231,7 +2240,7 @@ bottom: 47px;
 /* start products page */
 /* <!-- start menu product  --> */
 .ho-menu-product {
-  margin: 100px auto;
+  margin: 100px auto 50px;
   width: 80%;
 }
 .ho-menu-product ul {
@@ -2325,8 +2334,8 @@ bottom: 47px;
 /* <!-- end section info product  --> */
 /* <!-- start section cards product  --> */
 .ho-section-cards-product {
-  margin: 50px auto;
-  width: 100vw;
+  margin: 0 auto;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -2351,9 +2360,7 @@ bottom: 47px;
   justify-content: space-around;
   align-items: center;
 }
-.ho-section-cards-product .ho-card-product img {
-  width: 50%;
-}
+
 .ho-section-cards-product .ho-card-product .ho-card-info {
   display: flex;
   flex-direction: column;
@@ -2399,7 +2406,7 @@ bottom: 47px;
   font-weight: 300;
   text-transform: uppercase;
   width: 100%;
-  margin: 28px auto;
+  margin: 0 auto;
   position: relative;
 }
 .green-gold {
@@ -2463,6 +2470,7 @@ bottom: 47px;
   position: absolute;
   bottom: -145px;
   right: 0;
+  display: none;
 }
 
 /* end products page */
@@ -3079,6 +3087,9 @@ bottom: 47px;
   .ho-about-section .ho-about-section-info {
     width: 60%;
   }
+  .ho-about-section::after{
+  display: none;
+  }
   .ho-about-section .ho-about-section-img {
     justify-content: space-between;
     width: 40%;
@@ -3311,5 +3322,8 @@ bottom: 47px;
   }
   .ho-section-cards-product .ho-card-product .ho-card-info p {
     width: 100% !important;
+  }
+  .ho-about-section .ho-about-section-img img{
+    width:50%
   }
 }

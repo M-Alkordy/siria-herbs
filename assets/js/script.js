@@ -246,6 +246,7 @@ menuProduct[0].addEventListener('click', () => {
  document.querySelector('.rm_pages_container3').classList.add("section-none");
  document.querySelector('.rm_pages_container2').classList.remove("section-none");
  document.querySelector('#rm').classList.add("section-none");
+ document.querySelector('.rm_pages_container3_rose .rose').style.display="none";
 
 /*  document.querySelector('.ho-section-info-product').classList.remove("section-none"); */
 
@@ -256,6 +257,7 @@ menuProduct[1].addEventListener('click', () => {
     document.querySelector('.rm_pages_container').classList.remove("section-none");
     document.querySelector('#rm').classList.remove("section-none");
     document.querySelector('.page-item4').classList.add("section-none");
+    document.querySelector('.rm_pages_container3_rose .rose').style.display="none";
 
 }) 
 menuProduct[2].addEventListener('click', () => {
@@ -264,4 +266,5 @@ menuProduct[2].addEventListener('click', () => {
     document.querySelector('.rm_pages_container3').classList.remove("section-none");
     document.querySelector('#rm').classList.remove("section-none");
     document.querySelector('.page-item4').classList.remove("section-none");
+    document.querySelector('.rm_pages_container3_rose .rose').style.display="block";
    }) 
