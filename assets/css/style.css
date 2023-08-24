@@ -128,7 +128,9 @@ body {
 .rm_syria_nav_bootstrap_img {
   width: 141px;
   height: 58.79px;
-  margin: 41px 61px 10px 10px;
+  margin: 41px auto 10px;
+  position: relative;
+  left: -3.9175vw;
 }
 
 .justify-content-end {
@@ -1144,8 +1146,8 @@ body {
   }
 
   .rm_weCare_title_img {
-    width: 21px;
-    height: 14px;
+    width: 9px;
+    height: 7px;
     margin-left: 49%;
   }
 
@@ -3124,7 +3126,7 @@ body {
   /* start about section 1 */
   .ho-about-section {
     flex-direction: row-reverse;
-    max-height: 260px;
+    max-height: 200px;
   }
 
   .ho-about-section .ho-about-section-info h3 {
@@ -3340,7 +3342,6 @@ body {
   .ho-contact-section form button {
     width: 100%;
     margin: 10px auto 50px;
-    font-size: 0.4375rem;
   }
 
   /* End contact section   */
