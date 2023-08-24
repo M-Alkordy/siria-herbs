@@ -162,10 +162,11 @@ body {
 
 .rm_syria_nav_bootstrap_left {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 30px;
   align-items: center;
   padding-top: 88px;
+  width: 84px;
 }
 
 .nav_parttop_bootstrap_left_img {
@@ -1261,8 +1262,8 @@ body {
   }
 
   .rm_history_title_p::before {
-    top: -17px;
-    left: 16px;
+    top: -14px;
+    content: url('./../img/div.block-title__decormobail.svg');
   }
 
   .rm_history_title_video {
@@ -3123,6 +3124,7 @@ body {
   /* start about section 1 */
   .ho-about-section {
     flex-direction: row-reverse;
+    max-height: 260px;
   }
 
   .ho-about-section .ho-about-section-info h3 {
@@ -3144,7 +3146,6 @@ body {
 
   .ho-about-section .ho-about-section-info p {
     color: #000;
-    text-align: justify;
     font-family: Rubik;
     font-size: 0.5rem;
     font-style: normal;
@@ -3171,7 +3172,7 @@ body {
 
   .ho-about-section .ho-about-section-img img {
     width: 48%;
-    max-height: 278px;
+    max-height: 100%;
   }
 
   /* end about section 1 */
@@ -3255,6 +3256,8 @@ body {
   }
 
   .ho-about-our-amis .ho-about-amis-cards {
+    height: 312px;
+    align-content: space-between;
     top: 90%;
     gap: 20px;
   }
