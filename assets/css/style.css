@@ -142,7 +142,7 @@ body {
 .navbar-nav li {
   border-bottom: 1px solid;
   width: 201px;
-  padding-left: 75px;
+/*   padding-left: 75px; */
   padding-bottom: -3px;
   margin-bottom: 25px;
   color: #fff;
@@ -151,6 +151,8 @@ body {
 .navbar-nav li a,
 .white {
   color: #fff !important;
+  width: max-content;
+  margin: 0 auto;
 }
 
 .fixed-top {
@@ -168,12 +170,23 @@ body {
   gap: 30px;
   align-items: center;
   padding-top: 88px;
-  width: 84px;
+  width: 111px;
+}
+
+.rm_syria_nav_bootstrap_left .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #313332;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
 .nav_parttop_bootstrap_left_img {
-  width: 27px;
-  height: 27px;
+  width: 17px;
+  height: 17px;
 }
 
 .offcanvas-header .btn-close {
@@ -960,7 +973,10 @@ body {
 /* ************************************************************************************** */
 @media screen and (max-width: 950px) {
   .rm_card_products {
-    gap: 11px;
+    width: 298px;
+    gap: 0;
+    margin: 0 auto;
+    justify-content: space-between;
   }
 
   /* ***************************** */
@@ -3147,12 +3163,11 @@ body {
   }
 
   .ho-about-section .ho-about-section-info p {
-    color: #000;
-    font-family: Rubik;
-    font-size: 0.5rem;
-    font-style: normal;
-    font-weight: 300;
     margin-top: -25px;
+    color: #000;
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 23px;
   }
 
   .ho-about-section .ho-about-section-info p span {
@@ -3265,9 +3280,14 @@ body {
   }
 
   .ho-about-our-amis .ho-about-amis-cards .ho-amis-card h4 {
-    color: #383a39;
-    font-size: 0.75rem;
+    color: #383A39;
+    text-align: center;
+    font-size: 12px;
+    font-family: Rubik;
     font-weight: 500;
+    line-height: 18px; 
+    width: 60%;
+    margin: 0 auto;
   }
 
   .ho-about-our-amis .ho-about-amis-cards .ho-amis-card {
